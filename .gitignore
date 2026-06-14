@@ -1,0 +1,20 @@
+# Environments
+myenv/
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloaded Data & PDFs
+*.pdf
+data/
+reports/
+
+# Database / Vector Store
+chroma_db/
+.chroma/
+
+# Streamlit
+.streamlit/
