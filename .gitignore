@@ -10,7 +10,7 @@ __pycache__/
 # Downloaded Data & PDFs
 *.pdf
 data/
-reports/
+
 
 # Database / Vector Store
 chroma_db/
