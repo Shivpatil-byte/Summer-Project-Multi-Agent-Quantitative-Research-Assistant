@@ -12,7 +12,6 @@ def orchestrator_node(state):
     
     print(f"\n[Orchestrator] Decomposing query: '{query}'")
     
-    # Initialize the Groq LLM (Make sure GROQ_API_KEY is in your .env file)
     llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0) 
     
     prompt = ChatPromptTemplate.from_messages([
@@ -36,7 +35,6 @@ if __name__ == "__main__":
     # A dummy state to test the router
     test_state = {"query": "How did Purina Petcare and Nespresso perform globally in 2024?"}
     
-    # Run the node
     result = orchestrator_node(test_state)
     
     print("\n--- LLM OUTPUT ---")

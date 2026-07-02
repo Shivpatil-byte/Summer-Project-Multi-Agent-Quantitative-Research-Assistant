@@ -6,7 +6,6 @@ from analyst import analyst_node
 from critic import critic_node
 
 # 1. Initialize the Graph Blueprint
-# We strictly define that this graph will use your AgentState dictionary structure
 workflow = StateGraph(AgentState)
 
 # 2. Register the Nodes (The "Workers")

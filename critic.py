@@ -52,7 +52,7 @@ def critic_node(state):
         print(f"[Critic] Evaluation Complete. Confidence Score: {confidence}")
         print(f"[Critic] Justification: {justification}")
         
-        # The Day 4-5 threshold logic
+        
         if confidence < 0.7:
             needs_reretrieval = True
             print("[Critic] Alert: Confidence is below 0.7 threshold. Flagging for re-retrieval.")

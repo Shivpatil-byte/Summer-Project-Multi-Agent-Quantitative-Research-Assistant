@@ -21,7 +21,7 @@ def retriever_node(state):
     for idx, sq in enumerate(sub_questions, 1):
         print(f"  -> Searching Target [{idx}]: '{sq}'")
         
-        # Pull top 3 highly-refined chunks per sub-question using your Week 2 logic
+        # Pull top 3 highly-refined chunks per sub-question 
         results = retriever_engine.advanced_search(
             query=sq, 
             top_k_initial=10, 
