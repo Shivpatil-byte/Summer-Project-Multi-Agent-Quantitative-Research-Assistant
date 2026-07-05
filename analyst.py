@@ -20,7 +20,7 @@ def analyst_node(state):
         context_str += f"Source: {meta.get('source')} | Page: {meta.get('page_number')} | Year: {meta.get('year')}\n"
         context_str += f"Text: {chunk['text']}\n\n"
         
-    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.2)
+    llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
     
     system_prompt = (
         "You are an expert quantitative financial analyst. Synthesize a comprehensive answer to the user's query "

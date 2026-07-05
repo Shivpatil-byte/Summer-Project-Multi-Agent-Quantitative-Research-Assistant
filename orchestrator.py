@@ -12,7 +12,7 @@ def orchestrator_node(state):
     
     print(f"\n[Orchestrator] Decomposing query: '{query}'")
     
-    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0) 
+    llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
     
     prompt = ChatPromptTemplate.from_messages([
         ("system", "You are a quantitative research router. Break the user's complex financial query into 2 to 3 distinct, highly specific search questions. Output ONLY a valid JSON list of strings, with no markdown formatting or extra text."),

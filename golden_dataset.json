@@ -1,0 +1,272 @@
+[
+  {
+    "query": "What was the underlying trading operating profit in CHF millions for the year 2021?",
+    "ground_truth": "CHF 15,119 million",
+    "metadata": {
+      "source_report": "2021",
+      "absolute_page": 49,
+      "exact_quote": "Underlying trading operating profit (a) 14903 15 119"
+    }
+  },
+  {
+    "query": "What was the Net profit attributable to shareholders of the parent in 2022?",
+    "ground_truth": "CHF 9,270 million",
+    "metadata": {
+      "source_report": "2022",
+      "absolute_page": 49,
+      "exact_quote": "Profit for the year attributable to shareholders of the parent (Net profit) 16 905 9 270"
+    }
+  },
+  {
+    "query": "Identify the Total Equity reported for the year 2023 in millions of CHF.",
+    "ground_truth": "CHF 36,387 million",
+    "metadata": {
+      "source_report": "2023",
+      "absolute_page": 37,
+      "exact_quote": "Total Equity 42 792 36 387 46 281 43 245"
+    }
+  },
+  {
+    "query": "What were the total sales for the Powdered and Liquid Beverages segment in 2021?",
+    "ground_truth": "CHF 23,975 million",
+    "metadata": {
+      "source_report": "2021",
+      "absolute_page": 56,
+      "exact_quote": "Total sales 22 256 23 975 +7.8% +8.9%"
+    }
+  },
+  {
+    "query": "What was the reported total sales figure for the Latin America and Caribbean region in 2022?",
+    "ground_truth": "CHF 11,819 million",
+    "metadata": {
+      "source_report": "2022",
+      "absolute_page": 61,
+      "exact_quote": "Latin America and Caribbean 10 086 11.819"
+    }
+  },
+  {
+    "query": "Give me the exact underlying trading operating profit for Nutrition and Health Science in 2023.",
+    "ground_truth": "CHF 2,831 million",
+    "metadata": {
+      "source_report": "2023",
+      "absolute_page": 44,
+      "exact_quote": "Underlying trading operating profit 2.990 2831 18.5%"
+    }
+  },
+  {
+    "query": "What is a listed potential impact of \"Customer and channel management\" risks in 2021?",
+    "ground_truth": "Reduced distribution of products to consumers.",
+    "metadata": {
+      "source_report": "2021",
+      "absolute_page": 65,
+      "exact_quote": "- Reduced distribution of our products to consumers"
+    }
+  },
+  {
+    "query": "What main ingredients are the Maggi Nutri-licious Chatpata Besan Noodles made with according to the 2024 report?",
+    "ground_truth": "Nutrient dense chickpeas, rich in protein and fiber.",
+    "metadata": {
+      "source_report": "2024",
+      "absolute_page": 22,
+      "exact_quote": "Maggi Nutri-licious Chatpata Besan Noodles are made with nutrient dense chickpeas, rich in both protein"
+    }
+  },
+  {
+    "query": "How did total Group Sales change from 2021 to 2023? Provide the exact figures in millions of CHF.",
+    "ground_truth": "Total sales increased from CHF 87,088 million in 2021 to CHF 92,998 million in 2023.",
+    "metadata": {
+      "source_report": "2021, 2023",
+      "absolute_page": "49, 37",
+      "exact_quote": "Sales 84 343 87 088 & Sales 94 424 92 998"
+    }
+  },
+  {
+    "query": "Compare the total sales for the Water segment from 2021 to 2022. Did it grow or shrink?",
+    "ground_truth": "It shrank by CHF 504 million, dropping from CHF 4,040 million in 2021 to CHF 3,536 million in 2022.",
+    "metadata": {
+      "source_report": "2021, 2022",
+      "absolute_page": "56, 56",
+      "exact_quote": "Water Total sales 6421 4 040 & Total sales 4040 3 536"
+    }
+  },
+  {
+    "query": "Track the Net financial debt from 2022 to 2023. By how much did it increase?",
+    "ground_truth": "It increased by CHF 1,479 million, going from CHF 48,159 million in 2022 to CHF 49,638 million in 2023.",
+    "metadata": {
+      "source_report": "2022, 2023",
+      "absolute_page": "49, 37",
+      "exact_quote": "Net financial debt (a) 32917 48 159 & Net financial debt (a) 48 159 49 638"
+    }
+  },
+  {
+    "query": "Look at the Latin America and Caribbean sales segment. How did the revenue figures change from 2021 to 2023?",
+    "ground_truth": "Revenue grew from CHF 10,086 million in 2021 to CHF 12,196 million in 2023.",
+    "metadata": {
+      "source_report": "2021, 2023",
+      "absolute_page": "57, 49",
+      "exact_quote": "Latin America and Caribbean 9 247 10 086 & Latin America and Caribbean 11 819 12 196"
+    }
+  },
+  {
+    "query": "Did Ice cream sales increase or decrease from 2022 to 2023?",
+    "ground_truth": "They decreased from CHF 930 million in 2022 to CHF 889 million in 2023.",
+    "metadata": {
+      "source_report": "2022, 2023",
+      "absolute_page": "56, 44",
+      "exact_quote": "Ice cream 922 930 8.2% & Ice cream 930 889 8.1%"
+    }
+  },
+  {
+    "query": "How did the mitigation strategy for \"Environmental stewardship\" regarding water change from 2021 to 2023?",
+    "ground_truth": "It shifted from a \"Context-based approach to water resource management\" in 2021 to a \"Caring for Water plan to implement water stewardship initiatives\" in 2023.",
+    "metadata": {
+      "source_report": "2021, 2023",
+      "absolute_page": "66, 55",
+      "exact_quote": "- Context-based approach to water resource management & Caring for Water plan to implement water stewardship initiatives"
+    }
+  },
+  {
+    "query": "What was the difference in Net Profit attributable to shareholders between 2021 and 2023?",
+    "ground_truth": "Net profit dropped by CHF 5,696 million, from CHF 16,905 million in 2021 to CHF 11,209 million in 2023.",
+    "metadata": {
+      "source_report": "2021, 2023",
+      "absolute_page": "49, 37",
+      "exact_quote": "Profit for the year attributable to shareholders of the parent (Net profit) 12 232 16 905 & Profit for the year attributable to shareholders of the parent (Net profit) 9270 11 209"
+    }
+  },
+  {
+    "query": "How did the Underlying trading operating profit fluctuate from 2021 to 2023? Give me all three years.",
+    "ground_truth": "It was CHF 15,119 million in 2021, rose to CHF 16,103 million in 2022, and dipped slightly to CHF 16,053 million in 2023.",
+    "metadata": {
+      "source_report": "2022, 2023",
+      "absolute_page": "49, 37",
+      "exact_quote": "Underlying trading operating profit (a) 15 119 16 103 & Underlying trading operating profit (a) 16 103 16 053"
+    }
+  },
+  {
+    "query": "Compare the Organic Growth percentage for the CHF 19.1 billion sales zone in 2022 versus 2023.",
+    "ground_truth": "It improved from +7.2% in 2022 to +8.2% in 2023.",
+    "metadata": {
+      "source_report": "2022, 2023",
+      "absolute_page": "58, 46",
+      "exact_quote": "Organic growth +7.2% & Organic growth +8.2%"
+    }
+  },
+  {
+    "query": "Compare the total sales for \"Milk products\" specifically (excluding ice cream) between 2021 and 2023.",
+    "ground_truth": "It increased from CHF 9,778 million in 2021 to CHF 10,092 million in 2023.",
+    "metadata": {
+      "source_report": "2021, 2023",
+      "absolute_page": "56, 44",
+      "exact_quote": "Milk products 10 087 9 778 & Milk products 10 359 10 092"
+    }
+  },
+  {
+    "query": "Based on the 2021 risk assessment tables, what is management's key mitigation strategy regarding \"Discriminatory regulation\" of processed foods?",
+    "ground_truth": "Management focuses its scientific and nutritional expertise to enhance the overall nutrition, health, and wellness profile of its products.",
+    "metadata": {
+      "source_report": "2021",
+      "absolute_page": 65,
+      "exact_quote": "- Focus scientific and nutritional know-how to enhance nutrition, health and wellness"
+    }
+  },
+  {
+    "query": "In the 2022 governance and risk section, what specific plan is mentioned to mitigate environmental stewardship risks related to water?",
+    "ground_truth": "The company implements the \"Caring for Water plan\" to drive its water stewardship initiatives.",
+    "metadata": {
+      "source_report": "2022",
+      "absolute_page": 68,
+      "exact_quote": "Caring for Water plan to implement water stewardship initiatives Commitments to improve operational efficiencies"
+    }
+  },
+  {
+    "query": "According to the 2023 Principal Risks table, what is the primary mitigation strategy for addressing physical and transitional climate change disruptions?",
+    "ground_truth": "The primary mitigation is the implementation of Nestlé's Net Zero Roadmap alongside regenerative agriculture activities.",
+    "metadata": {
+      "source_report": "2023",
+      "absolute_page": 55,
+      "exact_quote": "Implementation of Nestlé's Net Zero Roadmap Generation Regeneration activities to support the advancement"
+    }
+  },
+  {
+    "query": "How does the 2024 report describe the goal of its \"end-to-end digitalization\" initiative regarding the supply chain?",
+    "ground_truth": "The goal is to transmit data across the entire value chain to enable faster decision-making in procurement, manufacturing, and distribution.",
+    "metadata": {
+      "source_report": "2024",
+      "absolute_page": 11,
+      "exact_quote": "We want data to be transmitted across our entire value chain so that we can"
+    }
+  },
+  {
+    "query": "How does the 2025 strategy section characterize the new \"performance culture\" management wants to foster?",
+    "ground_truth": "It emphasizes clear accountabilities, rewarding winning, and valuing speed over perfection, collaboration over consensus, and courage over comfort.",
+    "metadata": {
+      "source_report": "2025",
+      "absolute_page": 10,
+      "exact_quote": "We value speed over perfection, collaboration over consensus, courage over comfort and learning over experience."
+    }
+  },
+  {
+    "query": "Summarize the key mitigations listed in 2023 for preventing human rights violations in the extended supply chain.",
+    "ground_truth": "Key mitigations include a Human Rights Framework and Roadmap, salient issue action plans, and sustainable sourcing programs like the Nestlé Cocoa Plan.",
+    "metadata": {
+      "source_report": "2023",
+      "absolute_page": 56,
+      "exact_quote": "Human Rights Framework and Roadmap Salient issue action plans Sustainable sourcing programs"
+    }
+  },
+  {
+    "query": "What is the strategic narrative around cold coffee innovation in the 2024 report?",
+    "ground_truth": "The strategy capitalizes on Gen Z and Millennial trends by empowering consumers to create café-style cold coffee at home using innovations like Nescafé Espresso Concentrate.",
+    "metadata": {
+      "source_report": "2024",
+      "absolute_page": 12,
+      "exact_quote": "empowering consumers to create café-style cold coffee at home. Inspired by the coffee shop experience"
+    }
+  },
+  {
+    "query": "What was the exact operating margin for Danone's specialized nutrition division in 2023 compared to Nestlé's?",
+    "ground_truth": "This data does not exist in the corpus. The system must gracefully decline to answer as competitor specific operating margins are not provided in Nestlé's Annual Reviews.",
+    "metadata": {
+      "source_report": "N/A",
+      "absolute_page": null,
+      "exact_quote": "N/A"
+    }
+  },
+  {
+    "query": "Provide the raw Python source code for the proprietary nutritional algorithm used by Tails.com mentioned in the 2021 report.",
+    "ground_truth": "This data does not exist in the corpus. The system must decline to answer because proprietary source code is never disclosed in these corporate annual reports.",
+    "metadata": {
+      "source_report": "N/A",
+      "absolute_page": null,
+      "exact_quote": "N/A"
+    }
+  },
+  {
+    "query": "What is the precise chemical formulation and ingredient ratio for the Garden Gourmet Sensational Crispy Mini Filet launched in 2022?",
+    "ground_truth": "This data does not exist in the corpus. The system must decline to answer because proprietary trade-secret recipes and ratios are excluded from investor-facing reports.",
+    "metadata": {
+      "source_report": "N/A",
+      "absolute_page": null,
+      "exact_quote": "N/A"
+    }
+  },
+  {
+    "query": "List the exact M&A target companies Nestlé Health Science plans to acquire in Q4 2027.",
+    "ground_truth": "This data does not exist in the corpus. The system must decline to answer as future, highly confidential acquisition targets are not detailed in historical reports up to 2025.",
+    "metadata": {
+      "source_report": "N/A",
+      "absolute_page": null,
+      "exact_quote": "N/A"
+    }
+  },
+  {
+    "query": "What was the specific annual base salary and bonus payout for the factory manager of the Romont facility in Switzerland in 2021?",
+    "ground_truth": "This data does not exist in the corpus. The system must decline to answer because granular, individual employee salary metrics at the factory level are omitted from these corporate reports.",
+    "metadata": {
+      "source_report": "N/A",
+      "absolute_page": null,
+      "exact_quote": "N/A"
+    }
+  }
+]

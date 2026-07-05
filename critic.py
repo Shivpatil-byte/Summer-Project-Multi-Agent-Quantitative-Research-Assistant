@@ -18,7 +18,7 @@ def critic_node(state):
     context_str = "\n".join([f"- {c['text']}" for c in chunks])
     
     # Temperature 0 ensures the critic is ruthlessly deterministic
-    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+    llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
     
     system_prompt = (
         "You are an adversarial financial auditor. Evaluate if the generated answer is completely supported "
